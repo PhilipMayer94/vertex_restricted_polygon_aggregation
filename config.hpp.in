@@ -1,0 +1,5 @@
+#pragma once
+#include <string>
+
+#define PROJECT_ROOT std::string("@PROJECT_SOURCE_DIR@/")
+#define DATA_ROOT std::string("@PROJECT_SOURCE_DIR@/data/")
