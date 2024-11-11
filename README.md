@@ -1,0 +1,1 @@
+# vertex_restricted_polygon_aggregation
