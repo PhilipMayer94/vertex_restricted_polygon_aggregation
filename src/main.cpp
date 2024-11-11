@@ -304,7 +304,7 @@ int main(int argc, char *argv[]){
      * more generic ones are not implemented
      */
 
-    auto instance = load_aggregation_instance(DATA_ROOT + "/first_testing_data/selection_3.csv");
+    auto instance = load_aggregation_instance("./data/first_testing_data/selection_3.csv");
 
 
     /*
