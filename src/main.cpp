@@ -304,7 +304,7 @@ int main(int argc, char *argv[]){
      * more generic ones are not implemented
      */
 
-    auto instance = load_aggregation_instance("./data/first_testing_data/selection_3.csv");
+    auto instance = load_aggregation_instance("./data/relevant_ilp_instances/selection_3.csv");
 
 
     /*
@@ -342,7 +342,7 @@ int main(int argc, char *argv[]){
      * writes the solution into files that can be visualized with some python scripts
      *
      */
-    aggregator.write_all_solutions("data/results/village_no_contraction");
+    aggregator.write_all_solutions("./data/results/test");
 
 
 
